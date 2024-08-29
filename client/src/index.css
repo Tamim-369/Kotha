@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-primary/75 via-secondary/75 to-accent/75;
+}
+
+.gradient-background {
+  @apply bg-gradient-to-br from-primary to-secondary;
+}
