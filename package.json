@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build": "npm install && npm install --perfix client && npm run build --prefix client"
+    "build": "npm install && cd client && npm install && npm run build"
   },
   "devDependencies": {
     "@types/bun": "latest"
